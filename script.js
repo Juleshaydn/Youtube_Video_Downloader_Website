@@ -9,5 +9,6 @@ window.onload=function(){
     }
     
     function sendURL(URL) {
-        window.location.href = `http://localhost:4000/download?URL=${URL}`;
+        window.location.href = `http://localhost:8080/download?URL=${URL}`;
+        // window.location.href = `https://goldfish-app-jci26.ondigitalocean.app/sample-nodejs/download?URL=${URL}`;
     }
